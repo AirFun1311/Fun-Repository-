@@ -3,3 +3,37 @@
 *.int
 *.lk
 *.zip
+
+# BND Command Center Outputs  
+C:\BND_CommandCenter\
+BND_CommandCenter_*.log
+BND_Security_Report_*.html
+BND_SelfHealing.log
+BND_HoneytokenMonitor.log
+
+# AgentMatrix Hardening Script Outputs
+AgentMatrix_Log_*.txt
+AgentMatrix_Report_*.html
+C:\AgentMatrix_Logs\
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# PowerShell
+*.ps1xml
+$PSHOME/
+profile.ps1
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# Sound files (users should provide their own)
+Sounds/*.wav
+Sounds/*.mp3
+!Sounds/README.md
