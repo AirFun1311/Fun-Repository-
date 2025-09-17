@@ -3,3 +3,25 @@
 *.int
 *.lk
 *.zip
+
+# AgentMatrix Hardening Script Outputs
+AgentMatrix_Log_*.txt
+AgentMatrix_Report_*.html
+C:\AgentMatrix_Logs\
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# PowerShell
+*.ps1xml
+$PSHOME/
+profile.ps1
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup
